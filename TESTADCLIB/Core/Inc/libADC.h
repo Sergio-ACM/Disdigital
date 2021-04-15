@@ -5,11 +5,13 @@
  *      Author: sacmq
  */
 
-#ifndef INC_LIBADC_H_
-#define INC_LIBADC_H_
+# ifndef INC_ADC_H_
+	# define INC_ADC_h
 
-void ADC_Pin_Config(int Port);
-void MX_ADC1_Init();
-void uint16_t ();
+	#include <stdint.h>
+	#include<string.h>
+	#include<stdio.h>
 
-#endif /* INC_LIBADC_H_ */
+   float v_ADC ();
+
+#endif /*INC_ADC_h*/
